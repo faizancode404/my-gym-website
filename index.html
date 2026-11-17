@@ -28,7 +28,7 @@
 
     .left {
         display: inline-block;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         position: absolute;
         left: 64px;
         top: 20px;
@@ -48,7 +48,7 @@
         display: block;
         width: 33%;
         margin: 20PX auto;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 
     .right {
@@ -56,7 +56,7 @@
         right: 34PX;
         top: 20px;
         display: inline-block;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
     }
 
     .navbar {
@@ -102,20 +102,32 @@
     }
 
     .container {
-        border: 2px solid green;
+        border: 1px solid gray;
         margin: 106px 80px;
         padding: 75px;
-        width: 33%;
-        border-radius: 28px;
+        width: 32%;
+        pad: 20px 30px;
+        height: 380px;
+        border-radius: 25px;
     }
 
     .form-group input {
         text-align: center;
         display: block;
-        width: 34px;
-        padding: 6%;
+        width: 444px;
+        padding: 2%;
         border: 2px solid black;
-        margin: 3px auto;
+        margin: 2% auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
     }
 </style>
 
@@ -144,19 +156,21 @@
         <h1>Join the best gym of bokaro now </h1>
         <form action="noaction.php">
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name ">
+                <input type="text" name="" placeholder="Enter your Name ">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name ">
+                <input type="text" name="" placeholder="Enter your Age ">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name ">
+                <input type="text" name="" placeholder="Enter your Gender ">
             </div>
             <div class="form-group">
-                <input type="text" name="" placeholder="Enter your name ">
+                <input type="text" name="" placeholder="Enter your Locality ">
             </div>
-            <button class="btn">Submit Form</button>
-            <button class="btn">Reset</button>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact Number ">
+            </div>
+            <button class="btn">Submit</button>
         </form>
 
     </div>
